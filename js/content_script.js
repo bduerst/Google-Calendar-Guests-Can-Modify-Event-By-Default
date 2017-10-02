@@ -4,7 +4,7 @@
     // checkbox id is something like :31guests-modify
     // the number does actually change
     // it's not even a valid selector ¯\_(ツ)_/¯
-    var modifyEventCheckbox = document.querySelector('input[id$=guests-modify]');
+    var modifyEventCheckbox = document.querySelector('div[aria-label$="Let guests modify the event"]');
     var clickEvent = new MouseEvent("click", {
       bubbles: true,
       cancelable: true,
